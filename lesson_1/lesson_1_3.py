@@ -1,0 +1,8 @@
+num = input('Введите число: ')
+num_1 = int(num)
+num_2 = int(num + num)
+num_3 = int(num + num + num)
+print(num_1)
+print(num_2)
+print(num_3)
+print(f'Сумма: {num_1 + num_2 + num_3}')
